@@ -1,12 +1,13 @@
 {
-  "name": "restarent-backend---crud-",
+  "name": "restaurant-backend---crud-",
   "version": "1.0.0",
   "main": "index.js",
+  "type":"module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Goutham Kumar",
   "license": "ISC",
   "description": "Simple backend for Restarent by - Nodejs, mongodb we use mongoose, express, config, axios, nodemon Just simple CRUD operations get, put, post, delete, patch",
   "dependencies": {
